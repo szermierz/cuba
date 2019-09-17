@@ -1,0 +1,118 @@
+
+\documentclass[11pt,a5paper,twoside]{book}
+\usepackage[utf8]{inputenc}                                      
+\usepackage[OT4]{fontenc}  
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[polish]{babel} 
+\usepackage{indentfirst}
+\usepackage{graphicx} 
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage{rotating}
+\usepackage{titlesec}
+ 
+\usetikzlibrary{arrows}  
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+\newpagestyle{mystyle}
+{
+	\sethead[][\scriptsize{\enspace\chaptertitle}][]
+	{}
+	{\thesection~\sectiontitle}
+	{}
+	\setfoot{}
+	{\thepage}
+	{}
+}
+
+\usepackage[margin=2.5cm]{geometry}
+\linespread{1.2}
+
+\frenchspacing
+
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+\lstset{%
+language=Pascal,%
+commentstyle=\textit,%
+identifierstyle=\textsf,%
+keywordstyle=\sffamily\bfseries,
+%captionpos=b,%
+tabsize=3,%
+frame=lines,%
+numbers=none, %left,%
+breaklines=true,%
+morekeywords={cand},%
+%basicstyle=\footnotesize,%
+escapeinside={(*@}{@*)},%
+%basicstyle=\footnotesize,%
+%keywords={double,int,for,if,return,vector,matrix,void,public,class,string,%
+%float,sizeof,char,FILE,while,do,const}
+}
+
+\newcommand{\hcancel}[1]{%
+    \tikz[baseline=(tocancel.base)]{
+        \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
+        \draw[red] (tocancel.south west) -- (tocancel.north east);
+    }%
+}%
+
+\newcommand{\szQuote}[1] {
+\bigskip
+\begin{center}
+\textit{ #1 }
+\end{center}
+\bigskip
+}
+
+\newcommand{\miesiac}{%
+  \ifcase\the\month
+  \or styczeń% 1
+  \or luty% 2
+  \or marzec% 3
+  \or kwiecień% 4
+  \or maj% 5
+  \or czerwiec% 6
+  \or lipiec% 7
+  \or sierpień% 8
+  \or wrzesień% 9
+  \or październik% 10
+  \or listopad% 11
+  \or grudzień% 12
+  \fi}
+
+\title{Cuba}
+\author{Kamil Kowalewski}
+\date{Wrzesień, 2019}
+
+\begin{document}
+\pagestyle{mystyle}
+
+\maketitle
+
+\include{wstep}
+\include{dzien01}
+\include{dzien02}
+\include{dzien03}
+\include{dzien04}
+\include{dzien05}
+\include{dzien06}
+\include{dzien07}
+\include{dzien08}
+\include{dzien09}
+\include{dzien10}
+\include{dzien11}
+\include{dzien12}
+
+\pagenumbering{Roman}
+\pagestyle{headings}
+\tableofcontents
+
+\end{document}

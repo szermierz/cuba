@@ -1,0 +1,14 @@
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{3}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Prysznic to luksus, na kt\IeC {\'o}ry nie ka\IeC {\.z}dy mo\IeC {\.z}e sobie pozwoli\IeC {\'c}}{5}{chapter.2}% 
+\contentsline {chapter}{\numberline {3}Smacznego!}{17}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}S\IeC {\l }owo Cuba oznacza miejsce, w kt\IeC {\'o}rym s\IeC {\k a} g\IeC {\'o}ry i \IeC {\.z}yzne ziemie}{27}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Drogi na Kubie bywaj\IeC {\k a} z\IeC {\l }udne jak pralka w kartonie}{37}{chapter.5}% 
+\contentsline {chapter}{\numberline {6}Tak dobrze \IeC {\.z}ar\IeC {\l }o, a zdech\IeC {\l }o}{47}{chapter.6}% 
+\contentsline {chapter}{\numberline {7}Yes yes, this is my house}{55}{chapter.7}% 
+\contentsline {chapter}{\numberline {8}Najwy\IeC {\.z}szy czas wyjecha\IeC {\'c} z tego miasta}{65}{chapter.8}% 
+\contentsline {chapter}{\numberline {9}Bunkr\IeC {\'o}w nie ma, ale te\IeC {\.z} jest zajebi\IeC {\'s}cie!}{73}{chapter.9}% 
+\contentsline {chapter}{\numberline {10}Brakuje tylko autostopowicz\IeC {\'o}w z bananami}{83}{chapter.10}% 
+\contentsline {chapter}{\numberline {11}Czasem \IeC {\l }atwiej jest dorobi\IeC {\'c} drog\IeC {\k e} obok, ni\IeC {\.z} za\IeC {\l }ata\IeC {\'c} dziur\IeC {\k e} w mo\IeC {\'s}cie}{91}{chapter.11}% 
+\contentsline {chapter}{\numberline {12}Wszyscy mieli identyczne ciasto}{97}{chapter.12}% 
+\contentsline {chapter}{\numberline {13}Pr\IeC {\'o}ba no\IeC {\.z}nego odpalenia konia}{101}{chapter.13}% 
